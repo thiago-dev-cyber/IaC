@@ -5,7 +5,6 @@ set -e # garante que o script nao termina em caso de falhas
 # A paga as pastas criadas pelo script terra_form
 rm -rf /publico /adm /sec /ven
 
-
 # Remove os usuarios adicionados pelo script terra_form
 usuarios=("carlos" "maria" "joao" "debora" "sebastiana" "roberto" "josefina" "amanda" "rogerio")
 for user in "${usuarios[@]}";do
